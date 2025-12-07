@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Ckeckout') {
             steps {
-                git https://github.com/Manogna136/jenkins-docker-demo.git
+                git 'https://github.com/Manogna136/jenkins-docker-demo.git'
             }
         }
         stage('Install') {
